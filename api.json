@@ -1,0 +1,77 @@
+{
+    "cursos":[
+        {
+            "id":"1",
+            "curso":"Analise e Desenvolvimento de Sistemas",
+            "nivel":"Superior",
+            "duração":"3 anos",
+            "município":"Navirai"
+        },
+        {
+            "id":"2",
+            "curso":"Administração",
+            "nivel":"Pós-Graduação",
+            "duração":"4 anos",
+            "município":"Itaquirai"
+        },
+        {
+            "id":"3",
+            "curso":"Arquitetura",
+            "nivel":"Bacharelado",
+            "duração":"5 anos",
+            "município":"São Paulo"
+        },
+        {
+            "id":"4",
+            "curso":"Artes Visuais",
+            "nivel":"Superior",
+            "duração":"3 anos",
+            "município":"Dourados"
+        },        
+        {
+            "id":"5",
+            "curso":"Design Web",
+            "nivel":"Superior",
+            "duração":"3 anos",
+            "município":"São Paulo"
+        },
+        {
+            "id":"6",
+            "curso":"Direito",
+            "nivel":"Mestrado",
+            "duração":"5 anos",
+            "município":"São Paulo"
+        },        
+        {
+            "id":"7",
+            "curso":"Engenharia",
+            "nivel":"Superior",
+            "duração":"5 anos",
+            "município":"Rio de Janeiro"
+        },
+        {
+            "id":"8",
+            "curso":"Informatica",
+            "nivel":"Superior",
+            "duração":"4 anos",
+            "município":"Dourados"
+        },
+        {
+            "id":"9",
+            "curso":"Pedagogia",
+            "nivel":"Pós-Graduação",
+            "duração":"5 anos",
+            "município":"Navirai"
+        },
+        {
+            "id":"10",
+            "curso":"Turismo",
+            "nivel":"Superior",
+            "duração":"4 anos",
+            "município":"Rio de Janeiro"
+        }
+    ]
+
+    
+
+}
