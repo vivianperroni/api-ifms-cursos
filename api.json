@@ -1,4 +1,64 @@
 {
+    "cadastros":[
+        {
+            "id":1,
+            "cad":"Analise" },
+        {
+            "id":2,
+            "cad":"Administração" },
+        {
+            "id":3,
+            "cad":"Arquitetura" },
+        {
+            "id":4,
+            "cad":"Artes Visuais" },
+        {
+            "id":5,
+            "cad":"Design Web" },
+        {
+            "id":6,
+            "cad":"Direito" },
+        {
+            "id":7,
+            "cad":"Engenharia" },            
+        {
+            "id":8,
+            "cad":"Informática" },
+        {
+            "id":9,
+            "cad":"Pedagogia" },   
+        {
+            "id":10,
+            "cad":"Turismo" }
+      ],
+
+    "niveis":[
+        {
+            "id":0,
+            "op":"-----Niveis-----" },
+        {
+            "id":1,
+            "op":"Superior" },
+        {
+            "id":2,
+            "op":"Bacharelado" },
+        {
+            "id":3,
+            "op":"Licenciatura" },
+        {
+            "id":4,
+            "op":"Pós-Graduação" },
+        {
+            "id":5,
+            "op":"Mestrado" },
+        {
+            "id":6,
+            "op":"Doutorado" },
+        {
+            "id":7,
+            "op":"Especialização" }
+      ],
+            
     "cursos":[
         {
             "id":"1",
@@ -31,7 +91,7 @@
         {
             "id":"5",
             "curso":"Design Web",
-            "nivel":"Superior",
+            "nivel":"Especialização",
             "duração":"3 anos",
             "município":"São Paulo"
         },
@@ -66,12 +126,10 @@
         {
             "id":"10",
             "curso":"Turismo",
-            "nivel":"Superior",
+            "nivel":"Licenciatura",
             "duração":"4 anos",
             "município":"Rio de Janeiro"
         }
     ]
-
-    
 
 }
