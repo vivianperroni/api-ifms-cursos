@@ -11,10 +11,10 @@
             "cad":"Arquitetura" },
         {
             "id":4,
-            "cad":"Artes Visuais" },
+            "cad":"Artes" },
         {
             "id":5,
-            "cad":"Design Web" },
+            "cad":"Design" },
         {
             "id":6,
             "cad":"Direito" },
@@ -62,7 +62,7 @@
     "cursos":[
         {
             "id":"1",
-            "curso":"Analise e Desenvolvimento de Sistemas",
+            "curso":"Analise",
             "nivel":"Superior",
             "duração":"3 anos",
             "município":"Navirai"
@@ -83,14 +83,14 @@
         },
         {
             "id":"4",
-            "curso":"Artes Visuais",
+            "curso":"Artes",
             "nivel":"Superior",
             "duração":"3 anos",
             "município":"Dourados"
         },        
         {
             "id":"5",
-            "curso":"Design Web",
+            "curso":"Design",
             "nivel":"Especialização",
             "duração":"3 anos",
             "município":"São Paulo"
@@ -131,5 +131,4 @@
             "município":"Rio de Janeiro"
         }
     ]
-
 }

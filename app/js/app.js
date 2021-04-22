@@ -12,19 +12,18 @@ async function getCursos(){
     const cursoList = Array.from(response.data)
     cursoList.forEach(async function(curso){
         apiData.innerHTML+=`
-            <div class="card m-2" style="width:220px">
+            <div class="m-1" style="display: block; background-color: white;" >
                 <section class="card-body">
-                    <h5 class="card-title">${curso.curso}</h5>
+                    <h5 style="margin-bottom: 1.0rem; border-bottom: ridge;">${curso.curso}</h5>
                     <p>
-                        Nivel de ensino: ${curso.nivel}
+                        <b>Nivel:</b><br> ${curso.nivel}
                     </p>
                     <p>
-                        Duração: ${curso.duração}
+                        <b>Duração:</b><br> ${curso.duração}
                     </p>
                     <p>
-                        Município: ${curso.município}
+                        <b>Município:</b><br> ${curso.município}
                     </p>                    
-               
                 </section>
             </div>
         `
@@ -40,18 +39,18 @@ async function search(query){
     apiData.innerHTML=""
     cursoList.forEach(function(curso){
         apiData.innerHTML+=`
-            <div class="card m-2" style="width:220px">
+            <div class="m-1" style="display: block; background-color: white;">
                 <section class="card-body">
-                <h5 class="card-title">${curso.curso}</h5>
+                <h5 style="margin-bottom: 1.0rem; border-bottom: ridge;">${curso.curso}</h5>
                 <p>
-                    Nivel de ensino: ${curso.nivel}
+                    <b>Nivel:</b><br> ${curso.nivel}
                 </p>
                 <p>
-                    Duração: ${curso.duração}
+                    <b>Duração:</b><br> ${curso.duração}
                 </p>
                 <p>
-                    Município: ${curso.município}
-                </p> 
+                    <b>Município:</b><br> ${curso.município}
+                </p>                    
                 </section>
             </div>
           `
