@@ -1,10 +1,12 @@
 import getData from "./api.js";
 const apiData = document.querySelector('.api-data')
 const spinner = document.querySelector('.spinner-grow')
+const alert = document.querySelector('.alert')
 const nivelFilter = document.querySelector('.nivel-filter')
 const cadastroFilter = document.querySelector('.cadastro-filter')
 
 showSpinner(false)
+showAlert(false)
 
 function showSpinner(isShow=false){
     if(isShow){
@@ -12,6 +14,15 @@ function showSpinner(isShow=false){
         return
     }
         spinner.style.display="none"
+
+}
+
+function showAlert(isShow=false){
+    if(isShow){
+        alert.style.display="block"
+        return
+    }
+        alert.style.display="none"
 
 }
 
@@ -38,16 +49,20 @@ function renderApi(cursoList){
 
 async function getCursos(){
     showSpinner(true)
+    showAlert(true)
     const response = await getData('cursos')
     showSpinner(false)
+    showAlert(false)
     const cursoList = Array.from(response.data)
     renderApi(cursoList)
 }
 
 async function search(query){   
     showSpinner(true)
+    showAlert(true)
     const response = await getData(`cursos?q=${query}`)
     showSpinner(false)
+    showAlert(false)
     const cursoList = Array.from(response.data)
     apiData.innerHTML=""
     renderApi(cursoList)
